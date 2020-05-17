@@ -45,7 +45,7 @@ gulp.task('sass', function () {
 
 // Compression images
 gulp.task('img', function() {
-	return gulp.src('flexible-jekyll/assets/img/**/*')
+	return gulp.src('assets/img/**/*')
 		.pipe(cache(imagemin({
 			interlaced: true,
 			progressive: true,
