@@ -16,15 +16,5 @@ layout: main
 </article>
 {% endfor %}
 
-{% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{post.url | prepend: site.baseurl}}">
-        <article class="post">
-        </article>
-      </a>
-    </li>
-{% endfor %}
-
-
 {% include pagination.html %}
 
