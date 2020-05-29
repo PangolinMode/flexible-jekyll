@@ -25,7 +25,7 @@ layout: main
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
           <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
           <a href="https://www.reddit.com/submit?title={{ page.title }}&url={{ site.url}}{{ page.url }}" title="Share on Reddit" rel="nofollow" target="_blank">Reddit</a> <!-- https://www.reddit.com/submit?title=ShareThis%3A%20Free%20Social%20Share%20Buttons%20%26%20Plugins%20for%20Websites%20%26%20Blogs&url=https%3A%2F%2Fsharethis.com%2F-->
-          <button onclick="CopyLink()" class="share-link" title="Copy URL">Copy URL</button>
+          <a href=location.href class="share-link" title="Copy URL">Copy URL</a>
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
@@ -35,30 +35,5 @@ layout: main
       </div>
       <!-- Disabling disqus {% include disqus.html %}
     </div> <!-- End Wrap Content -->
-    <script type="text/javascript">
-      function copyTextToClipboard(text) {
-  var textArea = document.createElement("textarea");
-      }
-      textArea.value = text;
-
-      document.body.appendChild(textArea);
-
-      textArea.select();
-
-  try {
-    var successful = document.execCommand('copy');
-    var msg = successful ? 'successful' : 'unsuccessful';
-    console.log('Copying text command was ' + msg);
-} catch (err) {
-  console.log('Oops, unable to copy');
-}
-
-document.body.removeChild(textArea);
-}
-
-function CopyLink() {
-copyTextToClipboard(location.href);
-}
-</script>
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->

@@ -24,7 +24,7 @@ So come back once in awhile to see what's new. I'll be updating my Insta story e
 
 See ya later trainer!
 
-<!-->
+<!--
 A story about how I fell in love with Pokémon cards again
 Quick story: A year or so ago I decided I wanted to write a short story and landed on a pangolin as the protagonist. Since then, I've become passionate about their survival.
 
