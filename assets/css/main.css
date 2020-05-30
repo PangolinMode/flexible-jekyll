@@ -239,6 +239,12 @@ textarea {
   /* 1 */
   margin: 0;
   /* 2 */
+
+  /* Trying to give <a> formatting to buttons */
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 /**
