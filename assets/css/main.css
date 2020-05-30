@@ -1276,7 +1276,8 @@ a.newer-posts:hover {
   text-align: left;
 }
 
-.page-footer .page-share a {
+.page-footer .page-share a,
+.page-footer .page-share button {
   display: inline-block;
   text-decoration: none;
   background-color: #fafafa;
