@@ -8,7 +8,7 @@ img:  # Add image post (optional)
 You might be wondering what the pangolin, a mammal native to Africa and parts of Southeast Asia, has to do with Pokémon. The answer is very little. To be exact, there is a single Pokémon that appears to be based on the animal, and that Pokémon is Sandslash.
 
 ![Sandslash slashing]({{site.baseurl}}/assets/img/intro-article/sandslash_pangolin_pokemon-18.png)
-<p font-size="10px">Pokémon: The Johto Journeys - "Good 'Quil Hunting"</p>
+<i id="picturecredit">Pokémon: The Johto Journeys - "Good 'Quil Hunting"</i>
 
 Can you feel its immense power coming through? (Imagine there's a GIF above of it slashing away)
 And THAT'S how I knew "Pangolin Mode" was the perfect name for this blog.
