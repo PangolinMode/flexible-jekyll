@@ -235,7 +235,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 1 */
-  /* css came with line-height:1.15; here */
+  line-height: 1.5; /* css came with line-height:1.15; here */
   /* 1 */
   margin: 0;
   /* 2 */
